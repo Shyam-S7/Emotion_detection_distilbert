@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.ckpt
+
+# ---- Virtual Environment ----
+env/
+venv/
+.venv/
+
+# ---- Jupyter & Data ----
+*.ipynb_checkpoints
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.db
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Cache ----
+.cache/
+.cache*/
+*/__pycache__/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- Build ----
+build/
+dist/
+*.egg-info/
+
+# ---- HuggingFace / Model Files ----
+tokenizer.json
+config.json
+pytorch_model.bin
+tf_model.h5
+model/
+checkpoints/
+runs/
+bert_model/
